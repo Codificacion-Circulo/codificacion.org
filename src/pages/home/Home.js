@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import './Home.css'
 import HeaderImg from '../../assets/home/web-designer.png'
 import AboutImg from '../../assets/home/developers-doing-discussion-about-wireframe.jpg'
 import WhyImg from '../../assets/home/people-standing-together.png'
@@ -100,7 +101,7 @@ function Home(props) {
 
                         <div class="col-md">
                         
-                            <div class="mx-auto my-2" style={{ width: "20rem" }}>
+                            <div class="lol mx-auto my-2" style={{ width: "20rem" }}>
                                 <img
                                     src={OneImg}
                                     class="card-img-top"
@@ -121,7 +122,7 @@ function Home(props) {
 
 
                         <div class="col-md">
-                            <div class="mx-auto my-2" style={{ width: "20rem" }}>
+                            <div class="lol mx-auto my-2" style={{ width: "20rem" }}>
                                 <img
                                     src={TwoImg}
                                     class="card-img-top"
@@ -144,7 +145,7 @@ Mission</h3>
 
 
                         <div class="col-md">
-                            <div class="mx-auto my-2" style={{ width: "20rem" }}>
+                            <div class="lol mx-auto my-2" style={{ width: "20rem" }}>
                                 <img
                                     src={ThreeImg}
                                     class="card-img-top"
