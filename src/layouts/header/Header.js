@@ -19,11 +19,11 @@ function Header(props) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="justify-content-center align-items-center text-center"/>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="justify-content-center">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/community">Community</Nav.Link>
-              <Nav.Link href="/domain">Domain</Nav.Link>
-              <Nav.Link href="/team">Team</Nav.Link>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+              <Nav.Link className="mx-auto" href="/">Home</Nav.Link>
+              <Nav.Link className="mx-auto" href="/community">Community</Nav.Link>
+              <Nav.Link className="mx-auto" href="/domain">Domain</Nav.Link>
+              <Nav.Link className="mx-auto" href="/team">Team</Nav.Link>
+              <Nav.Link className="mx-auto" href="/contact">Contact Us</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
