@@ -1,0 +1,149 @@
+.contactUs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUsCard {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    width: 800px;
+    /* background: #fff; */
+    background: rgba(197, 222, 236, 0.137);
+    background: #e3f2fd;
+    /* color: black; */
+    color: #000;
+    height: 70vh;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+
+.contactUsCardImg {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background: url("https://images.unsplash.com/photo-1596003906949-67221c37965c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+}
+
+.glassUi {
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(161, 209, 230, 0.137);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border-radius: 8px;
+    -webkit-box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.233);
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.233);
+}
+
+.glassUi h1{
+    font-size:2rem;
+}
+
+/* .glassUi h4{
+    font-size:1rem;
+} */
+.glassUi p{
+    font-size:0.9rem;
+}
+.contactUsCard form{
+    width: 50%;
+    display: flex;
+    margin: 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+}
+.contactUsCard form h1{
+    width: 90%;
+    text-align: center;
+}
+.contactUsCard form input,textarea{
+    width: 90%;
+    padding: 8px;
+    /* border-radius: 10px; */
+    /* border: 2px solid gainsboro; */
+    font-family: 'Baskervville', serif;
+    background: none;
+    color: #000; /* extra */
+    border: none; /* extra */
+    border-bottom: 1px solid #000;
+    outline: none; /* extra */
+}
+
+.contactUsCard form input::placeholder {
+    font-size: 1rem;
+    color: #000; /* extra */
+}
+
+.contactUsCard form textarea::placeholder {
+    color: #000; /* extra */
+}
+
+/* .contactUsCard form label{
+    font-size:1.2rem;
+} */
+.contactUsCard form button{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size:1rem;
+    /* background: #60e28b; */
+    background: none;
+    border: 2px solid #67C0F8 ;
+    color: #000;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.contactUsCard form button:hover {
+    border: 2px solid #60e28b;
+    color: #000;
+}
+
+.contactUsCard form button:active{
+    background: #6c80ee;
+    transform:scale(0.99);
+}
+
+@media (max-width: 768px) {
+    .contactUsCard{
+        width: 300px;
+        height: auto;
+    }
+    .glassUi h1{
+        font-size:1.5rem;
+    }
+    .glassUi p{
+        font-size:0.6rem;
+    }
+    .contactUsCard form{
+        margin: 15px;
+    }
+    .contactUsCard form input,textarea{
+        width: 100%;
+        padding: 10px;
+    }
+    .contactUsCard{
+        flex-direction: column;
+    }
+    .contactUsCard form{
+        width: 90%;
+    }
+    .cardImg{
+        width: 100%;
+    }
+    .contactUsCard form button{
+        margin:30px auto;
+    }
+}
