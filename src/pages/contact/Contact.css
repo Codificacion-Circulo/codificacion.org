@@ -27,11 +27,11 @@
     justify-content: center;
     align-items: center;
     width: 55%;
-    background: url("https://images.unsplash.com/photo-1596003906949-67221c37965c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80");
 }
 
 .glassUi {
-    color: #fff;
+    color: #000;
     padding: 40px;
     display: flex;
     flex-direction: column;
