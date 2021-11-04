@@ -92,8 +92,8 @@ function Home(props) {
 
 
 
-            <section class="p-sm-5 py-5">
-                <div class="container">
+            <section class="p-sm-5 py-5 bg-light">
+                <div class="container py-sm-4">
                     <div class="row justify-content-center text-center g-2">
 
 
@@ -112,7 +112,7 @@ function Home(props) {
                                     <p class="card-text">
                                         A buzzing tech hub to promote coding and technology among amateurs, professionals, and enthusiasts for a better future. We recognize the potential in you.
                                     </p>
-                                    <a href="www.google.com" class="btn btn-primary">Read More</a>
+                                    {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ Mission</h3>
                                     <p class="card-text">
                                     Providing an inclusive and progressive environment for people with a knack for coding and computing with ample quality resources and guidance. Together, we can create wonders.
                                     </p>
-                                    <a href="www.google.com" class="btn btn-primary">Read More</a>
+                                    {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ Mission</h3>
                                     <p class="card-text">
                                     Innovation: With great minds at work and millions of ideas brewing, we give wings to your epic ideas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam!
                                     </p>
-                                    <a href="www.google.com" class="btn btn-primary">Read More</a>
+                                    {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
                             </div>
                         </div>
