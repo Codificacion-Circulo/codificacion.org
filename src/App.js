@@ -6,8 +6,8 @@ import Team from "./pages/team/Team";
 import Domain from "./pages/domain/Domain";
 import Community from "./pages/community/Community";
 import Contact from "./pages/contact/Contact";
-import LoadingSpinner from "./components/LoadingSpinner";
-import Error from "./components/Error";
+import LoadingSpinner from "./components/misc/LoadingSpinner";
+import Error from "./components/misc/Error";
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         >
           <Switch>
             <Route path="/" exact>
-              <Home />
+              <Home/>
             </Route>
             <Route path="/domain">
               <Domain />
