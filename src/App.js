@@ -1,13 +1,14 @@
 import React, { Suspense } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-import Layout from "./layout/Layout";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import Layout from "./layouts/Layout";
+import Home from "./pages/home/Home";
+import Team from "./pages/team/Team";
+import Domain from "./pages/domain/Domain";
+import Community from "./pages/community/Community";
+import Contact from "./pages/contact/Contact";
 import LoadingSpinner from "./components/LoadingSpinner";
 import Error from "./components/Error";
-import Team from "./pages/Team";
-import Domain from "./pages/Domain";
-import Community from "./pages/Community";
+
 
 function App() {
   return (
