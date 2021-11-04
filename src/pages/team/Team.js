@@ -18,7 +18,7 @@ function Team(props) {
         </div>
         <div class="row">
           <div class="col-lg-3 mb-4">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-md-12">
                 <img
                   src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
@@ -61,7 +61,7 @@ function Team(props) {
             </div>
           </div>
           <div class="col-lg-3 mb-4">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-md-12">
                 <img
                   src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg"
@@ -104,7 +104,7 @@ function Team(props) {
             </div>
           </div>
           <div class="col-lg-3 mb-4">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-md-12">
                 <img
                   src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
@@ -147,7 +147,7 @@ function Team(props) {
             </div>
           </div>
           <div class="col-lg-3 mb-4">
-            <div class="row">
+            <div class="row text-center">
               <div class="col-md-12">
                 <img
                   src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg"
