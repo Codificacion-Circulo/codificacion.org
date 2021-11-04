@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from "react";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+import Layout from "./layout/Layout";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import LoadingSpinner from "./components/LoadingSpinner";
+import Error from "./components/Error";
+import Team from "./pages/Team";
+import Domain from "./pages/Domain";
+import Community from "./pages/Community";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <BrowserRouter>
+      <Layout>
+        <Suspense
+          fallback={
+            <div className="centered">
+              <LoadingSpinner />
+            </div>
+          }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Switch>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/domain">
+              <Domain />
+            </Route>
+            <Route path="/community">
+              <Community />
+            </Route>
+            <Route path="/team">
+              <Team />
+            </Route>
+            <Route path="/contact" exact>
+              <Contact />
+            </Route>
+            <Route path="*">
+              <Error />
+            </Route>
+          </Switch>
+        </Suspense>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
