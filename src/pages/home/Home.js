@@ -14,34 +14,7 @@ import ThreeImg from '../../assets/home/equality.png'
 function Home(props) {
     return (
         <Fragment>
-            {/* <section
-                className="p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
-            >
-                <div className="container">
-                    <div className="d-sm-flex align-items-center justify-content-between">
-                        <div className="mx-3">
-                            <h1>The <span className="text-danger">headstart </span>you need in the<span className="text-warning"> world of coding.</span></h1>
-                            <p className="lead my-4">
-                                From your most trivial query to the most mammoth task, we have all the answers. With us, you’re unstoppable.
-                            </p>
-                            <button
-                                className="btn btn-primary btn-lg"
-                                data-bs-toggle="modal"
-                                data-bs-target="#enroll"
-                            >
-                                Join our Community
-                            </button>
-                        </div>
-                        <img
-                            className="img-fluid w-50 d-none d-sm-block"
-                            src={HeaderImg}
-                            alt=""
-                        />
-                    </div>
-                </div>
-            </section> */}
-
-
+           
             <section id="learn" className="p-sm-5 pb-5 pt-sm-5">
                 <div className="container">
                     <div className="row align-items-center justify-content-between">
@@ -83,7 +56,7 @@ function Home(props) {
                         <h3 className="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
 
                         <div className="input-group news-input">
-                            <input type="text" className="form-control" placeholder="Enter Email" />
+                            <input type="text" className="form-control" placeholder="Enter Email"/>
                             <button className="btn btn-dark btn-lg" type="button">Submit</button>
                         </div>
                     </div>
