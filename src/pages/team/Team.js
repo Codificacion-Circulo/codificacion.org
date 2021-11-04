@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../team/Team.css"
 
 function Team(props) {
   return (
