@@ -137,6 +137,9 @@
     .contactUsCard{
         flex-direction: column;
     }
+    .contactUsCardImg {
+        width: 100%;
+    }
     .contactUsCard form{
         width: 90%;
     }
