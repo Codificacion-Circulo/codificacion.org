@@ -39,8 +39,8 @@ const Domain = () => {
               <div class="feature-content">
                 <h5>Blockchain</h5>
                 <p>
-                  If data storage and cryptocurrencies catch your eye,
-                  blockchain is the perfect field for you.
+Blockchain refers to a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.
+
                 </p>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Domain = () => {
               <div class="feature-content">
                 <h5>Competitive Coding</h5>
                 <p>
-                Do you know coding can give you the same adrenaline rush as sky diving? 
+                Do you know coding can give you the same adrenaline rush as sky diving? Mind sport held online with participants trying to solve a program
                 </p>
               </div>
             </div>
