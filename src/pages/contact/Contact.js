@@ -1,9 +1,9 @@
 import { Fragment, useState } from "react";
-// import classes from "./Home.module.css";
+import Notifications from '../../components/misc/Notifications'
+import LoadingSpinner from '../../components/misc/LoadingSpinner'
+
 import { send } from "emailjs-com";
 import "../contact/Contact.css"
-// import LoadingSpinner from "../components/LoadingSpinner";
-// import ConfirmModal from "../components/ConfirmModal"
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -60,9 +60,10 @@ const Contact = () => {
 
   return (
     <Fragment>
-      {/* {loading && <LoadingSpinner />} */}
-      {/* { didSubmit && (<ConfirmModal heading='Message Submitted!' para1="We've received your message." para2="We'll get back to you shortly." onClose={closeModalHandler} />)} */}
-      <section className={"contactUs"}>
+      {loading && <LoadingSpinner />}
+      { didSubmit && (<Notifications title='Message Submitted!' body="We've received your message." onClose={closeModalHandler} open={didSubmit} />)}
+      <section className="contactUs">
+      
         <div className={"contactUsCard"}>
           <div className={"contactUsCardImg"}>
             <div className={"glassUi"}>

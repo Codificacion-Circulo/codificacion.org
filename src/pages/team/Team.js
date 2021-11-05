@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "../team/Team.css"
 
 function Team(props) {
@@ -36,22 +35,22 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-twitter"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-instagram"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-behance"></i>
                       </a>
                     </li>
@@ -79,22 +78,22 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-twitter"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-instagram"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-behance"></i>
                       </a>
                     </li>
@@ -122,22 +121,22 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-twitter"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-instagram"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-behance"></i>
                       </a>
                     </li>
@@ -165,22 +164,22 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-twitter"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-instagram"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-decoration-none d-block px-1">
+                      <a href="www.google.com" class="text-decoration-none d-block px-1">
                         <i class="icon-social-behance"></i>
                       </a>
                     </li>
