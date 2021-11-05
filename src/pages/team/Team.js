@@ -27,11 +27,11 @@ function Team(props) {
               </div>
               <div class="col-md-12 text-center">
                 <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                  <h6 class="subtitle mb-3">Property Specialist</h6>
+                  <h5 class="mt-4 font-weight-medium mb-0">Abhay Lal
+</h5>
+                  <h6 class="subtitle mb-3">AI/ML Head</h6>
                   <p>
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience.
+                  Do you know how every group has that one super cool nerd? Abhay is the AI and ML wizard of codificacion.
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -70,11 +70,11 @@ function Team(props) {
               </div>
               <div class="col-md-12 text-center">
                 <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                  <h6 class="subtitle mb-3">Property Specialist</h6>
+                  <h5 class="mt-4 font-weight-medium mb-0">Aditya Jain</h5>
+                  <h6 class="subtitle mb-3">Blockchain Head
+</h6>
                   <p>
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience.
+                  Equipped with skills in the illustrious field of blockchain technology and content writing, he is the king of blockchain technology in Codificacion.
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -113,11 +113,12 @@ function Team(props) {
               </div>
               <div class="col-md-12 text-center">
                 <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                  <h6 class="subtitle mb-3">Property Specialist</h6>
+                  <h5 class="mt-4 font-weight-medium mb-0">Ayushya Jain
+</h5>
+                  <h6 class="subtitle mb-3">Corporate Head
+</h6>
                   <p>
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience.
+                  He’s the BFG (big friendly giant) of the cyber world. Not only does he creates wonders in the programming world with technical skills like Python, C, C++ and HTML
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -156,11 +157,10 @@ function Team(props) {
               </div>
               <div class="col-md-12 text-center">
                 <div class="pt-2">
-                  <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
-                  <h6 class="subtitle mb-3">Property Specialist</h6>
+                  <h5 class="mt-4 font-weight-medium mb-0">Sreyom Sreesan</h5>
+                  <h6 class="subtitle mb-3">Oriya Sala</h6>
                   <p>
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience.
+                    Web Dev kr leta hai
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
