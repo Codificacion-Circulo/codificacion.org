@@ -165,7 +165,7 @@ function Team(props) {
                   <ul class="list-inline">
                     <li class="list-inline-item">
                       <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
@@ -175,7 +175,7 @@ function Team(props) {
                     </li>
                     <li class="list-inline-item">
                       <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
