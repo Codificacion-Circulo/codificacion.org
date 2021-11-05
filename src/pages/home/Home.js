@@ -3,7 +3,7 @@ import './Home.css'
 import HeaderImg from '../../assets/home/web-designer.png'
 import AboutImg from '../../assets/home/developers-doing-discussion-about-wireframe.jpg'
 import WhyImg from '../../assets/home/people-standing-together.png'
-import OneImg from '../../assets/home/business-goal.png'
+import OneImg from '../../assets/home/business-way-to-success.png'
 import TwoImg from '../../assets/home/ideas.png'
 import ThreeImg from '../../assets/home/equality.png'
 
@@ -82,8 +82,8 @@ function Home(props) {
                             <p>
                                 We came together to create a community where no one feels left out, and everyone gets the proper resources and guidance necessary at the start of college life.
                             </p>
-                            <a href="/community" className="btn btn-light mt-3">
-                                <i className="fas fa-chevron-right"></i> Community
+                            <a href="/community" className="btn btn-light mt-3" style={{backgroundColor:" #e3f2fd"}}>
+                                <i className="fas fa-chevron-right"></i> Explore Our Community
                             </a>
                         </div>
                     </div>
@@ -111,7 +111,8 @@ function Home(props) {
 
                                     <h3 class="card-title mb-3">Vision</h3>
                                     <p class="card-text">
-                                        A buzzing tech hub to promote coding and technology among amateurs, professionals, and enthusiasts for a better future. We recognize the potential in you.
+                                    A buzzing tech hub to promote coding and technology among amateurs, professionals, and enthusiasts for a better future. We recognize the potential in you.
+
                                     </p>
                                     {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
@@ -134,6 +135,7 @@ function Home(props) {
 Mission</h3>
                                     <p class="card-text">
                                     Providing an inclusive and progressive environment for people with a knack for coding and computing with ample quality resources and guidance. Together, we can create wonders.
+
                                     </p>
                                     {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
@@ -155,7 +157,8 @@ Mission</h3>
 
                                     <h3 class="card-title mb-3">Value</h3>
                                     <p class="card-text">
-                                    Innovation: With great minds at work and millions of ideas brewing, we give wings to your epic ideas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quibusdam!
+                                    We value our members, respect their differences and appreciate their progress and achievements. Our community is a safe place for everyone. After all, we all bleed the same. 
+
                                     </p>
                                     {/* <a href="www.google.com" class="btn btn-primary">Read More</a> */}
                                 </div>
@@ -180,10 +183,10 @@ Mission</h3>
                         <div className="col-md p-5">
                             <h2>Step into the world of exciting change and chase your dreams.</h2>
                             <p className="lead">
-                                Tired of working for an organization under the pretext of 'learning' new skills? Unlike other groups or clubs, we solely aim to provide you with resources, guidance, equip you with skills, help you in your projects and competitions and build a strong portfolio. Welcome to an authentic place of learning and growing.
+                                We solely aim to provide you with resources, guidance, equip you with skills, help you in your projects and competitions and build a strong portfolio. Welcome to an authentic place of learning and growing.
                             </p>
-                            <a href="www.google.com" className="btn btn-light mt-3">
-                                <i className="bi bi-chevron-right"></i> Read More
+                            <a href="/team" className="btn btn-light mt-3" style={{backgroundColor:" #e3f2fd"}}>
+                                <i className="fas fa-chevron-right"></i> Meet Our Team
                             </a>
                         </div>
                         <div className="col-md">
