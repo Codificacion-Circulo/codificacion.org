@@ -20,7 +20,7 @@ function Home(props) {
                 <div className="container">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-md p-5">
-                        <h1>The <span className="text-danger">headstart </span>you need in the<span className="text-warning"> world of coding.</span></h1>
+                        <h1>The <span className="text-dark">headstart </span>you need in the<span className="text-primary"> World of Coding.</span></h1>
                             <p className="lead my-4">
                                 From your most trivial query to the most mammoth task, we have all the answers. With us, you’re unstoppable.
                             </p>
@@ -51,14 +51,14 @@ function Home(props) {
 
 
 
-            <section className="bg-primary text-light p-5">
+            <section className="bg text-dark p-5" style={{backgroundColor:" #e3f2fd"}}>
                 <div className="container">
                     <div className="d-md-flex justify-content-between align-items-center">
                         <h3 className="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
 
                         <div className="input-group news-input">
-                            <input type="text" className="form-control" placeholder="Enter Email"/>
-                            <button className="btn btn-dark btn-lg" type="button">Submit</button>
+                            <input type="text" className="form-control" placeholder="Enter Email" />
+                            <button className="btn btn-dark btn-lg" type="button" >Submit</button>
                         </div>
                     </div>
                 </div>
@@ -75,15 +75,15 @@ function Home(props) {
                             <img src={AboutImg} className="img-fluid" alt="" />
                         </div>
                         <div className="col-md p-5">
-                            <h2>Get down to the nitty-gritty of Codificacion.</h2>
+                            <h2>Get down to the nitty-gritty of<span className="text-primary"style={{color:"rgb(84, 154, 210)"}}> Codificacion</span></h2>
                             <p className="lead">
                                 Codificacion Circulo is a technical community that is the brainchild of a passionate group of college students who took up the responsibility to prepare young tech enthusiasts for the protean world of computing.
                             </p>
                             <p>
                                 We came together to create a community where no one feels left out, and everyone gets the proper resources and guidance necessary at the start of college life.
                             </p>
-                            <a href="www.google.com" className="btn btn-light mt-3">
-                                <i className="bi bi-chevron-right"></i> Read More
+                            <a href="/community" className="btn btn-light mt-3">
+                                <i className="fas fa-chevron-right"></i> Community
                             </a>
                         </div>
                     </div>
