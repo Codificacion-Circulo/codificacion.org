@@ -21,3 +21,9 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+
+  .active{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
