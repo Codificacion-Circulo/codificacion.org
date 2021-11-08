@@ -110,7 +110,7 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
             <button>
-              Submit<i className="fas fa-arrow-right"></i>
+              Submit<i className="fas fa-arrow-right mx-1"></i>
             </button>
           </form>
         </div>
