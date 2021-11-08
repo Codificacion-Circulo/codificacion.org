@@ -16,6 +16,10 @@ function Team(props) {
           </div>
         </div>
         <div class="row">
+
+
+
+
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
@@ -35,23 +39,13 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-facebook"></i>
+                      <a href="https://www.linkedin.com/in/abhay-lal-6850111bb/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-instagram"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-behance"></i>
+                      <a href="https://github.com/abhay-lal" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github"></i>
                       </a>
                     </li>
                   </ul>
@@ -59,6 +53,11 @@ function Team(props) {
               </div>
             </div>
           </div>
+
+
+
+
+
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
@@ -102,6 +101,11 @@ function Team(props) {
               </div>
             </div>
           </div>
+
+
+
+
+
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
@@ -146,6 +150,13 @@ function Team(props) {
               </div>
             </div>
           </div>
+
+
+
+
+
+
+          
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
@@ -164,23 +175,18 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="fab fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
+                      <a href="https://www.linkedin.com/in/sreyom-sresaan/" class="text-decoration-none d-block px-1">
                         <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-behance"></i>
+                      <a href="https://github.com/sreyom31" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href=" https://twitter.com/sreyom_sresaan" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-twitter"></i>
                       </a>
                     </li>
                   </ul>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import logo from "../../assets/Logo.ico";
+import logo from "../../assets/header/Logo.ico";
 import {Navbar,Container,Nav} from 'react-bootstrap';
 
 function Header(props) {
