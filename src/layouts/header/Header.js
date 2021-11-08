@@ -21,7 +21,7 @@ function Header(props) {
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="justify-content-center">
               <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/">Home</Nav.Link>
-              <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/community">Community</Nav.Link>
+              {/* <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/community">Community</Nav.Link> */}
               <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/domain">Domain</Nav.Link>
               <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/team">Team</Nav.Link>
               <Nav.Link className="hover-underline-animation mx-3 text-center text-dark" href="/contact">Contact Us</Nav.Link>

@@ -1,5 +1,11 @@
 import React from "react";
 import "../team/Team.css"
+// import Abh from '../../assets/team/ab.svg'
+// import Adi from '../../assets/team/ad.svg'
+// import Sry from '../../assets/team/sr.svg'
+// import Ayu from '../../assets/team/ay.svg'
+
+
 
 function Team(props) {
   return (
@@ -76,24 +82,15 @@ function Team(props) {
                   Equipped with skills in the illustrious field of blockchain technology and content writing, he is the king of blockchain technology in Codificacion.
                   </p>
                   <ul class="list-inline">
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-facebook"></i>
+                  <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/aditya-jain-b5040a1b8/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
+
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-instagram"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-behance"></i>
+                      <a href="https://github.com/Adityajain2048" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github"></i>
                       </a>
                     </li>
                   </ul>
@@ -126,23 +123,13 @@ function Team(props) {
                   </p>
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-facebook"></i>
+                      <a href="https://www.linkedin.com/in/ayushya-jain-365618130/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-instagram"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="www.google.com" class="text-decoration-none d-block px-1">
-                        <i class="icon-social-behance"></i>
+                      <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -156,7 +143,7 @@ function Team(props) {
 
 
 
-          
+
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
