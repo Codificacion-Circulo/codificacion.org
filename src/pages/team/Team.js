@@ -1,9 +1,18 @@
 import React from "react";
 import "../team/Team.css"
-// import Abh from '../../assets/team/ab.svg'
-// import Adi from '../../assets/team/ad.svg'
-// import Sry from '../../assets/team/sr.svg'
-// import Ayu from '../../assets/team/ay.svg'
+import Ab from '../../assets/team/ab.svg'
+import Ad from '../../assets/team/ad.svg'
+import Sr from '../../assets/team/sr.svg'
+import Dk from '../../assets/team/dk.svg'
+import Abh from '../../assets/team/abh.svg'
+import Oj from '../../assets/team/oj.svg'
+import Tan from '../../assets/team/tan.svg'
+import Sh from '../../assets/team/sh.svg'
+import Vk from '../../assets/team/vk.svg'
+import Ay from '../../assets/team/ay.svg'
+
+
+
 
 
 
@@ -30,7 +39,7 @@ function Team(props) {
             <div class="row text-center">
               <div class="col-md-12">
                 <img
-                  src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg"
+                  src={Ab}
                   alt="wrapkit"
                   class="img-fluid rounded-circle"
                 />
@@ -62,13 +71,81 @@ function Team(props) {
 
 
 
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Ay}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Abhay Lal
+</h5>
+                  <h6 class="subtitle mb-3">AI/ML Head</h6>
+                  <p>
+                  Do you know how every group has that one super cool nerd? Abhay is the AI and ML wizard of codificacion.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/abhay-lal-6850111bb/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://github.com/abhay-lal" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
                 <img
-                  src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg"
+                  src={Sr}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Abhay Lal
+</h5>
+                  <h6 class="subtitle mb-3">AI/ML Head</h6>
+                  <p>
+                  Do you know how every group has that one super cool nerd? Abhay is the AI and ML wizard of codificacion.
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/abhay-lal-6850111bb/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://github.com/abhay-lal" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Ad}
                   alt="wrapkit"
                   class="img-fluid rounded-circle"
                 />
@@ -103,11 +180,13 @@ function Team(props) {
 
 
 
+
+
           <div class="col-lg-3 mb-4">
             <div class="row text-center">
               <div class="col-md-12">
                 <img
-                  src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg"
+                  src={Dk}
                   alt="wrapkit"
                   class="img-fluid rounded-circle"
                 />
@@ -148,7 +227,7 @@ function Team(props) {
             <div class="row text-center">
               <div class="col-md-12">
                 <img
-                  src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg"
+                  src={Vk}
                   alt="wrapkit"
                   class="img-fluid rounded-circle"
                 />
@@ -181,6 +260,170 @@ function Team(props) {
               </div>
             </div>
           </div>
+
+
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Oj}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Ayushya Jain
+</h5>
+                  <h6 class="subtitle mb-3">Corporate Head
+</h6>
+                  <p>
+                  He’s the BFG (big friendly giant) of the cyber world. Not only does he creates wonders in the programming world with technical skills like Python, C, C++ and HTML
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/ayushya-jain-365618130/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Abh}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Ayushya Jain
+</h5>
+                  <h6 class="subtitle mb-3">Corporate Head
+</h6>
+                  <p>
+                  He’s the BFG (big friendly giant) of the cyber world. Not only does he creates wonders in the programming world with technical skills like Python, C, C++ and HTML
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/ayushya-jain-365618130/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Tan}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Ayushya Jain
+</h5>
+                  <h6 class="subtitle mb-3">Corporate Head
+</h6>
+                  <p>
+                  He’s the BFG (big friendly giant) of the cyber world. Not only does he creates wonders in the programming world with technical skills like Python, C, C++ and HTML
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/ayushya-jain-365618130/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div class="col-lg-3 mb-4">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <img
+                  src={Sh}
+                  alt="wrapkit"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-12 text-center">
+                <div class="pt-2">
+                  <h5 class="mt-4 font-weight-medium mb-0">Ayushya Jain
+</h5>
+                  <h6 class="subtitle mb-3">Corporate Head
+</h6>
+                  <p>
+                  He’s the BFG (big friendly giant) of the cyber world. Not only does he creates wonders in the programming world with technical skills like Python, C, C++ and HTML
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/ayushya-jain-365618130/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
