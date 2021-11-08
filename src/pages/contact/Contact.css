@@ -18,7 +18,7 @@
     height: 70vh;
     border-radius: 20px;
     margin-bottom: 2rem;
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 .contactUsCardImg {
@@ -27,10 +27,11 @@
     justify-content: center;
     align-items: center;
     width: 55%;
-    background-repeat: no-repeat;
-    background-size: auto;
-  
-    background: url("../../assets/contact/blog.png");
+    background: url("../../assets/contact/bg_dee.jpeg");
+    /* background: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM2fHxhYnN0cmFjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+
+
+
 }
 
 .glassUi {
