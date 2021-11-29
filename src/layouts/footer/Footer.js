@@ -9,24 +9,24 @@ function Footer(props) {
                 <section className="mb-4">
 
 
-                    <a className="mx-2" style={{ color: "#dd2a7b" }} href="#!" role="button"
-                    ><i class="fab fa-instagram fa-lg"></i
+                    <a className="mx-3" style={{ color: "#dd2a7b" }} href="https://www.instagram.com/codificacion_circulo/" role="button"
+                    ><i class="fab fa-instagram fa-lg fa-2x"></i
                     ></a>
 
 
-                    <a className="mx-2" style={{ color: "#0077b5" }} href="#!" role="button"
-                    ><i class="fab fa-linkedin fa-lg"></i
+                    <a className="mx-3" style={{ color: "#0077b5" }} href="https://www.linkedin.com/company/codificacion-circulo/" role="button"
+                    ><i class="fab fa-linkedin fa-lg fa-2x"></i
                     ></a>
 
-                    <a className="mx-2" style={{ color: "#5865f2" }} href="#!" role="button"
-                    ><i class="fab fa-discord fa-lg"></i
+                    <a className="mx-3" style={{ color: "#5865f2" }} href="https://discord.gg/jHtmC44TBH" role="button"
+                    ><i class="fab fa-discord fa-lg fa-2x"></i
                     ></a>
 
 
 
 
-                    <a className="mx-2" style={{ color: "#6e5494" }} href="#!" role="button"
-                    ><i class="fab fa-github fa-lg"></i
+                    <a className="mx-3" style={{ color: "#6e5494" }} href="https://github.com/Codificacion-Circulo" role="button"
+                    ><i class="fab fa-github fa-lg fa-2x"></i
                     ></a>
 
 
