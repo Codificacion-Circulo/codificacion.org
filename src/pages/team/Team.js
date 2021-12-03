@@ -20,9 +20,8 @@ function Team(props) {
           <div class="col-md-7 text-center">
             <h3 class="mb-3">Experienced & Professional Team</h3>
             <h6 class="subtitle">
-              You can relay on our amazing features list and also our customer
-              services will be great experience for you without doubt and in
-              no-time
+              You can rely on our amazing features list and our commendable customer
+              service. A memorable experience is in store for you.
             </h6>
           </div>
         </div>
@@ -121,8 +120,8 @@ function Team(props) {
                       </a>
                     </li>
                     <li class="list-inline-item">
-                    <a href="https://www.instagram.com/ayushyaaa/" class="text-decoration-none d-block px-1">
-                        <i class="fab fa-instagram fa-2x"></i>
+                    <a href="https://github.com/Torque44" class="text-decoration-none d-block px-1">
+                        <i class="fab fa-github fa-2x"></i>
                       </a>
                     </li>
                   </ul>
