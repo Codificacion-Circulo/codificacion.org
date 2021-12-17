@@ -2,12 +2,14 @@ import React from 'react'
 import './Header.css'
 import logo from "../../assets/header/Logo.ico";
 import {Navbar,Container,Nav} from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 function Header(props) {
     return (
         <Navbar sticky="top" style={{backgroundColor:" #e3f2fd"}} expand="lg">
         <Container>
         <Navbar.Brand href="/home">
+            <Link to={"/"} style={{textDecoration: "none"}} className={"text-dark"}>
         <img
           alt=""
           src={logo}
@@ -16,6 +18,7 @@ function Header(props) {
           className="d-inline-block align-center"
         />{' '}
       Codificación
+            </Link>
       </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="justify-content-center align-items-center text-center"/>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
